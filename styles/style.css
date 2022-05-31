@@ -1,0 +1,18 @@
+body{
+    background-color: gray;
+    margin-top: 20%;
+}
+
+#anima-div{
+    margin: auto;
+    text-align: center;
+    background-image: url("../imgs/AMOGUS.png");
+    width: 102px;
+    height: 103px;
+    animation: anima-sprite 850ms steps(5) infinite;
+}
+
+@keyframes anima-sprite {
+    from {background-position-y: 0px;}
+    to {background-position-y: 517px;}
+}   
